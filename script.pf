@@ -1,0 +1,7 @@
+//load document
+doc = load($input[0])
+//set password
+doc.setPassword("abc")
+//output
+output(doc)
+
