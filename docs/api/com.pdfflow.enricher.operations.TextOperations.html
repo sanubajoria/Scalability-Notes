@@ -1,0 +1,791 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TextOperations
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TextOperations
+   ">
+    <meta name="generator" content="docfx 2.42.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.pdfflow.enricher.operations.TextOperations">
+  <h1 id="com_pdfflow_enricher_operations_TextOperations" data-uid="com.pdfflow.enricher.operations.TextOperations">Class TextOperations
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">TextOperations</span></div>
+  </div>
+  
+  
+  
+  <h6><strong>Namespace</strong>: </h6>
+  <h6><strong>Assembly</strong>: .dll</h6>
+  
+  <h5 id="com_pdfflow_enricher_operations_TextOperations_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs"></code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_addText__" data-uid="com.pdfflow.enricher.operations.TextOperations.addText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_addText__" class="expander" data-toggle="collapse">addText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_addText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Add text at particular location
+<dl><dt><b>Parameters:</b></dt><dd><code>text</code> -  - it can be &quot;abc&quot; or [&quot;abc&quot;, &quot;def&quot;]</dd><dd><code>at</code> -  - Point or Region type, if region then text get wrapped around</dd><dd>font</dd><dd>fontSize</dd><dd>rotate</dd><dd>color</dd><dd>opacity</dd><dd><code>justify</code> -  - justify text, if wrapped around</dd><dd><code>leading</code> -  - if null, leading space calculated automatically</dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">addText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">text</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">at</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">font</span>
+        <p><p>HELVETICA</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">fontSize</span>
+        <p><p>12</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">rotate</span>
+        <p><p>0</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Color.html">Color</a></span>
+        <span class="parametername">color</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">opacity</span>
+        <p><p>1</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Boolean.html">Boolean</a></span>
+        <span class="parametername">justify</span>
+        <p><p>false</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">leading</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="com.pdfflow.enricher.model.Page.html">Page</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_changeText__" data-uid="com.pdfflow.enricher.operations.TextOperations.changeText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_changeText__" class="expander" data-toggle="collapse">changeText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_changeText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Change text within region
+Caution, if font is not fully embedded, and we don't pass the font, then it will try to use font within PDF, which may result in some character missing. <dl><dt><b>Parameters:</b></dt><dd><code>region</code> -  in mm, if null, then whole page</dd><dd><code>color,</code> -  eg such as RED, GREEN etc.. if null no color change</dd><dd><code>moveBy,</code> -  in mm, Point, if null, no shift</dd><dd><code>font,</code> -  eg such as HELVITICA etc.. if null no font change</dd><dd><code>fontSize..</code> -  if null no change in font size.</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">changeText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Color.html">Color</a></span>
+        <span class="parametername">color</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Point.html">Point</a></span>
+        <span class="parametername">moveBy</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">font</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">fontSize</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_deleteText__" data-uid="com.pdfflow.enricher.operations.TextOperations.deleteText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_deleteText__" class="expander" data-toggle="collapse">deleteText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_deleteText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Delete Text within this region. <dl><dt><b>Parameters:</b></dt><dd><code>region</code> -  in mm, if null then whole page</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">deleteText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_extractText__" data-uid="com.pdfflow.enricher.operations.TextOperations.extractText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_extractText__" class="expander" data-toggle="collapse">extractText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_extractText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Extract text relative to another text <dl><dt><b>Parameters:</b></dt><dd>relativeText</dd><dd>withinRegion</dd><dd><code>moveX</code> -  -- move by x, from relativText, so it contain the text to be extracted</dd><dd><code>moveY</code> -  -- move by y, from relativeText, so it contain the text to be extracted</dd><dd>width</dd><dd>height</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">extractText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.String.html">String</a></span>
+        <span class="parametername">relativeText</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">withinRegion</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">moveX</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">moveY</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">width</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">height</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Boolean.html">Boolean</a></span>
+        <span class="parametername">caseSensitive</span>
+        <p><p>false</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="dummy.String.html">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_extractText__" data-uid="com.pdfflow.enricher.operations.TextOperations.extractText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_extractText__" class="expander" data-toggle="collapse">extractText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_extractText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Extract text relative to another text <dl><dt><b>Parameters:</b></dt><dd>relativeText</dd><dd>withinRegion</dd><dd><code>moveX</code> -  -- move by x, from relativText, so it contain the text to be extracted</dd><dd><code>moveY</code> -  -- move by y, from relativeText, so it contain the text to be extracted</dd><dd>width</dd><dd>height</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">extractText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.String.html">String</a></span>
+        <span class="parametername">relativeText</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">withinRegion</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">moveX</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">moveY</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">width</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">height</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Boolean.html">Boolean</a></span>
+        <span class="parametername">caseSensitive</span>
+        <p><p>false</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="dummy.String.html">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_extractTextDefinition__" data-uid="com.pdfflow.enricher.operations.TextOperations.extractTextDefinition()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_extractTextDefinition__" class="expander" data-toggle="collapse">extractTextDefinition</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_extractTextDefinition__" class="collapse in">
+  <div class="markdown level1 summary"><p>Extract text definition within region <dl><dt><b>Parameters:</b></dt><dd><code>region,</code> -  if null then whole page</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">extractTextDefinition</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_findReplaceText__" data-uid="com.pdfflow.enricher.operations.TextOperations.findReplaceText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_findReplaceText__" class="expander" data-toggle="collapse">findReplaceText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_findReplaceText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Find text and then replace it, within region/page
+Caution, if font is not fully embedded, and we don't pass the font, then it will try to use font within PDF, which may result in some character missing.
+<dl><dt><b>Parameters:</b></dt><dd><code>find</code> -  -- text to be find within page or region</dd><dd><code>replace</code> -  -- text to be replace with</dd><dd><code>region</code> -  in mm, if null, then whole page</dd><dd><code>color,</code> -  eg such as RED, GREEN etc.. if null no color change</dd><dd><code>moveBy,</code> -  in mm, Point, if null, no shift</dd><dd><code>font,</code> -  eg such as HELVITICA etc.. if null no font change</dd><dd><code>fontSize..</code> -  if null no change in font size.</dd><dd><code>caseSensitive..</code> -  by default not case sensitive</dd></dl><dl><dt><b>Returns:</b></dt><dd>List of region, which contain this word</dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">findReplaceText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.String.html">String</a></span>
+        <span class="parametername">find</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.String.html">String</a></span>
+        <span class="parametername">replace</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Color.html">Color</a></span>
+        <span class="parametername">color</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Point.html">Point</a></span>
+        <span class="parametername">moveBy</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">font</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">fontSize</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Boolean.html">Boolean</a></span>
+        <span class="parametername">caseSensitive</span>
+        <p><p>false</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_findText__" data-uid="com.pdfflow.enricher.operations.TextOperations.findText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_findText__" class="expander" data-toggle="collapse">findText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_findText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Find text within region/page
+<dl><dt><b>Parameters:</b></dt><dd><code>find</code> -  - text to be find</dd><dd><code>region</code> -  - if null, find in whole page</dd><dd><code>caseSensitive</code> -  - by default false</dd></dl><dl><dt><b>Returns:</b></dt><dd>List of region, which contain this word</dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">findText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.String.html">String</a></span>
+        <span class="parametername">find</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Boolean.html">Boolean</a></span>
+        <span class="parametername">caseSensitive</span>
+        <p><p>false</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="com_pdfflow_enricher_operations_TextOperations_replaceText__" data-uid="com.pdfflow.enricher.operations.TextOperations.replaceText()"><a href="#collapsible-com_pdfflow_enricher_operations_TextOperations_replaceText__" class="expander" data-toggle="collapse">replaceText</a></h4>
+  
+  <div id="collapsible-com_pdfflow_enricher_operations_TextOperations_replaceText__" class="collapse in">
+  <div class="markdown level1 summary"><p>Replace text within region
+Caution, if font is not fully embedded, and we don't pass the font, then it will try to use font within PDF, which may result in some character missing. <dl><dt><b>Parameters:</b></dt><dd><code>region</code> -  in mm, if null, then whole page</dd><dd><code>text</code> -  list of text, to be replace</dd><dd><code>color,</code> -  eg such as RED, GREEN etc.. if null no color change</dd><dd><code>moveBy,</code> -  in mm, Point, if null, no shift</dd><dd><code>font,</code> -  eg such as HELVITICA etc.. if null no font change</dd><dd><code>fontSize..</code> -  if null no change in font size.</dd></dl><dl><dt><b>Returns:</b></dt><dd></dd></dl></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">replaceText</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Region.html">Region</a></span>
+        <span class="parametername">region</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">text</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Color.html">Color</a></span>
+        <span class="parametername">color</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="com.pdfflow.enricher.model.Point.html">Point</a></span>
+        <span class="parametername">moveBy</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"></span>
+        <span class="parametername">font</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="dummy.Number.html">Number</a></span>
+        <span class="parametername">fontSize</span>
+        <p><p>null</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

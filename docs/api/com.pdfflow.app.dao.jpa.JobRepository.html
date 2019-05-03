@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface JobRepository
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface JobRepository
+   ">
+    <meta name="generator" content="docfx 2.42.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.pdfflow.app.dao.jpa.JobRepository">
+  
+  
+  <h1 id="com_pdfflow_app_dao_jpa_JobRepository" data-uid="com.pdfflow.app.dao.jpa.JobRepository" class="text-break">Interface JobRepository
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">org.springframework.data.jpa.repository.JpaRepository&lt;com.pdfflow.app.domain.JobInfo,java.lang.Long&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: </h6>
+  <h6><strong>Assembly</strong>: .dll</h6>
+  <h5 id="com_pdfflow_app_dao_jpa_JobRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface JobRepository extends JpaRepository&lt;JobInfo,Long&gt;</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository_findOneByJobName_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findOneByJobName*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository_findOneByJobName_java_lang_String_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findOneByJobName(java.lang.String)">findOneByJobName(String name)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Job findOneByJobName(String name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.lang.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.pdfflow.app.service.Job.html">Job</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository__S_save_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;save*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository__S_save_S_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;save(S)">&lt;S&gt;save(S entity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract S &lt;S&gt;save(S entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">S</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">S</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository_findAll_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAll*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository_findAll__" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAll()">findAll()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract List&lt;JobInfo&gt; findAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.util.List&lt;com.pdfflow.app.domain.JobInfo&gt;</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository_findAllById_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAllById*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository_findAllById_java_lang_Iterable_java_lang_Long__" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAllById(java.lang.Iterable&lt;java.lang.Long&gt;)">findAllById(Iterable&lt;Long&gt; iterable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract List&lt;JobInfo&gt; findAllById(Iterable&lt;Long&gt; iterable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.lang.Iterable&lt;java.lang.Long&gt;</span></td>
+        <td><span class="parametername">iterable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.util.List&lt;com.pdfflow.app.domain.JobInfo&gt;</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository_findAll_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAll*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository_findAll_org_springframework_data_domain_Sort_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.findAll(org.springframework.data.domain.Sort)">findAll(Sort sort)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract List&lt;JobInfo&gt; findAll(Sort sort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">org.springframework.data.domain.Sort</span></td>
+        <td><span class="parametername">sort</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.util.List&lt;com.pdfflow.app.domain.JobInfo&gt;</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository__S_saveAll_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;saveAll*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository__S_saveAll_java_lang_Iterable_S__" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;saveAll(java.lang.Iterable&lt;S&gt;)">&lt;S&gt;saveAll(Iterable&lt;S&gt; iterable)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract List&lt;S&gt; &lt;S&gt;saveAll(Iterable&lt;S&gt; iterable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.lang.Iterable&lt;S&gt;</span></td>
+        <td><span class="parametername">iterable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.util.List&lt;S&gt;</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository__S_saveAndFlush_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;saveAndFlush*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository__S_saveAndFlush_S_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.&lt;S&gt;saveAndFlush(S)">&lt;S&gt;saveAndFlush(S s)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract S &lt;S&gt;saveAndFlush(S s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">S</span></td>
+        <td><span class="parametername">s</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">S</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="com_pdfflow_app_dao_jpa_JobRepository_updateJobStatus_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.updateJobStatus*"></a>
+  <h4 id="com_pdfflow_app_dao_jpa_JobRepository_updateJobStatus_java_lang_String_java_lang_Long_" data-uid="com.pdfflow.app.dao.jpa.JobRepository.updateJobStatus(java.lang.String,java.lang.Long)">updateJobStatus(String status, Long id)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int updateJobStatus(String status, Long id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">java.lang.String</span></td>
+        <td><span class="parametername">status</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">java.lang.Long</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">org.springframework.data.jpa.repository.JpaRepository&lt;com.pdfflow.app.domain.JobInfo,java.lang.Long&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
